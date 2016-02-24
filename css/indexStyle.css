@@ -1,0 +1,1029 @@
+g@CHARSET "ISO-8859-1";
+/* Reset CSS
+* --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+  padding: 0;
+  margin: 0;}
+a{text-decoration:none;}
+table {border-spacing: 0;}
+fieldset,img {border: 0;}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-weight: normal;
+  font-style: normal;}
+strong{font-weight: bold;}
+ol,ul {list-style: none;margin:0;padding:0;}
+caption,th {text-align: left;}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin:0;
+  padding:0;
+  color:#444;}
+q:before,q:after {content:'';}
+abbr,acronym { border: 0;}
+
+/* Custom CSS
+* --------------------------------------- */
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4A4A;
+}
+img{
+  max-width: 100%;
+}
+
+/* Style
+* --------------------------------------- */
+h2, p, li {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+h2, p, ul{
+  margin-top: 5px;
+}
+
+h3 {
+  background: none repeat scroll 0 0 #ffcf01;
+  color: #4a4a4a;
+  letter-spacing: 1px;
+  padding: 13px 0;
+  text-align: center;
+  font-weight: 700;
+}
+img.indexThumnails {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: -65px;
+  width: 1024px;
+  opacity: 0.4; 
+}
+a img.indexThumnails:hover{
+  opacity: 0.9;
+}
+
+/* Index Style
+* --------------------------------------- */
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: uppercase;}
+
+.splashContainer-01 ul li a{color: #666;}
+.splashContainer-01 ul li a:hover{
+  color: black;
+  transition: all 0.7s ease 0s;}
+
+.circle-icon {
+  background: rgba(255,207,1,0.4);
+  border-radius: 50%;
+  height: 60px;
+  line-height: 100px;
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  width: 60px;
+  transition: all 0.7s ease 0s;}
+
+.circle-icon:hover {background: rgba(255,207,1,0.4);}
+
+/* Full video in the Tools Section
+* --------------------------------------- */
+
+#myVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: #EEF1F2; /* in case the video doesn't fit the whole page*/
+  background-image: /* our video */;
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover; /*cover video background */
+  z-index:3;
+}
+
+/* Contact
+* --------------------------------------- */
+img#image-me.img-circle {
+  width: 250px;
+  margin-bottom: 10px;}
+
+#section6 li a {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 1s ease 0s;
+}  
+
+#section6 li a:hover {
+    border-bottom: 2px solid #ffcf01;
+    color: #fff;
+    display: inline;
+  }
+
+
+@keyframes bounce {
+          0%, 20%, 53%, 80%, 100% {
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          transform: translate3d(0px, -5px, 0px);
+        }
+        40%, 43% {
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          transform: translate3d(0px, -15px, 0px);
+        }
+        70% {
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          transform: translate3d(0px, -5px, 0px);
+        }
+        90% {
+          transform: translate3d(0px, -5px, 0px);
+        }
+        }      
+
+/* ##################################### */
+/*      Global: Project img hover    */
+/* ##################################### */
+
+.caption {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: #fff;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transition: all 0.8s ease 0s;
+    z-index: 1;
+}
+  .caption:hover {
+    opacity: 1;
+}
+.caption i{
+  color: #ffcf01;
+}
+
+/* Boostrap 3 Changes - Container Size
+* --------------------------------------- */
+
+@media (min-width: 320px) {
+
+.pull-right {float: none !important;}
+
+canvas, video {display: none;}
+
+.splashContainer-01,
+.splashContainer-skills {
+  position: absolute;
+  text-align: center;}
+
+.splashContainer-01 {
+  margin-top: -25%;
+  margin-left: -20px;
+}
+
+.splashContainer-01 > p:nth-child(2){
+  padding: 0px 40px
+}
+
+.splashContainer-01 ul{
+  margin-top: 15px;
+} 
+
+/* Icon: Linkedin */
+.fa-linkedin{
+  padding: 7px 11px;
+}
+/* Icon: Github */
+.fa-codepen{
+  padding: 9px 10px;
+}
+/* Icon: Twitter */
+.fa-twitter{
+  padding: 8px 11px;
+}
+/* Icon: Instagram */
+.fa-instagram{
+  padding: 8px 11px;
+}
+/* Icon: Mail */
+.fa-envelope{
+  padding: 8px 10px;
+}
+/* Icon: Scroll Down */
+.fa-arrow-down{
+  padding: 9px 10px;
+} 
+
+
+/* Description of the projects */
+.row h2,
+.row p,
+.row ul li{
+  text-align: center;
+}
+
+.row h2{
+  font-weight: bold;
+  margin-bottom:5px;
+  font-size: 16px;
+}
+.row p{
+  color:#777;
+  font-size: 13px;
+}
+.row ul li{
+  color:#999;
+  font-size: 12px;
+}
+.row ul{
+  margin-top: 0px;
+}
+
+img.indexThumnails {
+  opacity: 0.8;
+}
+
+.splashContainer-skills {
+  margin-top: 15%;
+}
+
+.splashContainer-skills ul {
+  float: left;
+  margin-bottom: 2px;
+  width: 33%;
+}
+.splashContainer-skills p {
+  font-size: 12px;
+}
+.splashContainer-skills > p:nth-child(2) {
+  width: 260px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#section5 .layer {
+  top: 10%;
+}
+
+.splashContainer-skills .fa-3x {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 1.6em;
+}
+
+.circle-icon {
+  height: 45px;
+  width: 45px;}
+
+.list-inline {
+  margin-left: 0px;
+}  
+
+/* Icon: UX/UI Design */
+.fa-random {
+  padding: 11px 12px;
+}
+/* HTML5/CSS3 */
+.fa-code{
+  padding: 10px 11.3px;
+}
+/* Responsive Design */  
+.fa-arrows-h{
+  padding: 10px 12px;
+}
+/* Wireframe */  
+.fa-sitemap{
+  padding: 9px 12px;
+}
+
+/* Research */  
+.fa-search{
+  padding: 10px 13px;
+} 
+/* Presentation */  
+.fa-picture-o{
+  padding: 12px 12px;
+}
+/* Visual Consultant */  
+.fa-eye{
+  padding: 11px 12px;
+}    
+/* Art Direction */  
+.fa-arrows{
+  padding: 11px 12px;
+}    
+/* Internet Safety */  
+.fa-puzzle-piece {
+  padding: 11px 15px;
+}
+/* Staying Calm */  
+.fa-heart{
+  padding: 12px 12px;
+}
+
+/* Tools / Toys 
+* --------------------------------------- */
+#section5 .layer {
+  padding-left: 0px;
+  top: 7%;
+  text-align: center
+}
+
+#section5 .layer h1,
+#section5 .layer p{
+  color: white;
+}
+
+#section5 .layer ul {
+  margin-top: 25px;
+}  
+
+#section5 .layer ul li p {
+  margin-top: -5px; 
+}
+
+/* ##################################### */
+/*      Sub_Global: Project img hover    */
+/* ##################################### */
+/* To fit the size of the project image  */ 
+
+
+/* helloCode */ 
+#helloCode .caption {
+  height: 153%;
+  top: -65px;
+  width: 90.4%;}
+#helloCode .caption i{margin-top: 20%;}
+/* catchSuperman */
+#catchSuperman .caption {
+  height: 161%;
+  top: -64px;
+  width: 90.4%;}
+#catchSuperman .caption i{margin-top: 16%;}
+/* pixelxpixel */
+#pixelxpixel .caption {
+  height: 161%;
+  top: -64px;
+  width: 90.4%;}
+#pixelxpixel .caption i{margin-top: 16%;}
+/* nike */
+#nike .caption {
+  height: 156%;
+  top: -64px;
+  width: 90.4%;}
+#nike .caption i{margin-top: 17%;}
+/* sebastianfaena */
+#sebastianfaena .caption {
+  height: 147%;
+  top: -64px;
+  width: 90.4%;}
+#sebastianfaena .caption i{margin-top: 21%;}
+/* kateSpade */
+#kateSpade .caption {
+  height: 152%;
+  top: -64px;
+  width: 90.4%;}
+#kateSpade .caption i{margin-top: 19%;}
+/* homeMade */
+#homeMade .caption {
+  height: 153%;
+  top: -64px;
+  width: 90.4%;}
+#homeMade .caption i{margin-top: 18%;}
+/* lancome */
+#lancome .caption {
+  height: 143%;
+  top: -64px;
+  width: 90.4%;}
+#lancome .caption i{margin-top: 20%;}
+/* recyclingCode */
+#recyclingCode .caption {
+  height: 166%;
+  top: -64px;
+  width: 90.4%;}
+#recyclingCode .caption i{margin-top: 15%;}
+/* VirtualRelaxation */
+#VirtualRelaxation .caption {
+  height: 170%;
+  top: -64px;
+  width: 90.4%;}
+#VirtualRelaxation .caption i{margin-top: 14%;}
+/* slitScan */
+#slitScan .caption {
+  height: 160%;
+  top: -64px;
+  width: 90.4%;}
+#slitScan .caption i{margin-top: 16%;}  
+  
+}
+
+@media (min-width: 450px) {
+.splashContainer-01 {
+  margin-left: 0px;
+  margin-top: -10%;}
+
+.splashContainer-skills {
+  margin-left: 0px;
+  margin-top: -50%;}
+  
+/* ##################################### */
+/*      Sub_Global: Project img hover    */
+/* ##################################### */
+/* To fit the size of the project image  */ 
+
+
+/* helloCode */ 
+#helloCode .caption {
+  height: 132%;
+  top: -65px;
+  width: 93.4%;}
+#helloCode .caption i{margin-top: 22%;}
+/* catchSuperman */
+#catchSuperman .caption {
+  height: 135%;
+  top: -64px;
+  width: 93.4%;}
+#catchSuperman .caption i{margin-top: 18%;}
+/* pixelxpixel */
+#pixelxpixel .caption {
+  height: 135%;
+  top: -64px;
+   width: 93.4%;}
+#pixelxpixel .caption i{margin-top: 18%;}
+/* nike */
+#nike .caption {
+  height: 133%;
+  top: -64px;
+  width: 93.4%;}
+#nike .caption i{margin-top: 17%;}
+/* sebastianfaena */
+#sebastianfaena .caption {
+  height: 129%;
+  top: -64px;
+  width: 93.4%;}
+#sebastianfaena .caption i{margin-top: 24%;}
+/* kateSpade */
+#kateSpade .caption {
+  height: 131%;
+  top: -64px;
+  width: 93.4%;}
+#kateSpade .caption i{margin-top: 22%;}
+/* homeMade */
+#homeMade .caption {
+  height: 131%;
+  top: -64px;
+  width: 93.4%;}
+#homeMade .caption i{margin-top: 20%;}
+/* lancome */
+#lancome .caption {
+  height: 126%;
+  top: -64px;
+ width: 93.4%;}
+#lancome .caption i{margin-top: 25%;}
+/* recyclingCode */
+#recyclingCode .caption {
+  height: 138%;
+  top: -64px;
+  width: 93.4%;}
+#recyclingCode .caption i{margin-top: 19%;}
+/* VirtualRelaxation */
+#VirtualRelaxation .caption {
+  height: 140%;
+  top: -64px;
+  width: 93.4%;}
+#VirtualRelaxation .caption i{margin-top: 18%;}
+/* slitScan */
+#slitScan .caption {
+  height: 135%;
+  top: -64px;
+  width: 93.4%;}
+#slitScan .caption i{margin-top: 20%;}  
+
+}
+
+@media (min-width: 768px) {
+
+.container {width: 750px;}
+canvas{display: inline-block;}
+
+
+.splashContainer-01 {
+  margin-top: 40%; 
+  margin-left: 21px;
+  text-align: left;
+}
+
+.splashContainer-01 > p:nth-child(2) {
+  padding: 0 0px;
+}
+
+/* Social Media Icons Position */
+.splashContainer-01 ul {
+  margin-top: 5%;
+}
+
+
+.splashContainer-skills {
+  margin-left: 0px;
+  margin-top: 25%;
+}
+
+.splashContainer-01 p {
+  width: 495px;
+}
+
+.circle-icon {
+  height: 60px;
+  width: 60px;
+  padding: 15px;}
+
+.splashContainer-skills ul li a .circle-icon {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  color: #555;
+  height: 100px;
+  width: 105px;
+}  
+
+.splashContainer-skills .fa-3x {
+  font-size: 3.0em;
+}
+
+/* Icon: UX/UI Design */
+.fa-random {
+  padding: 32px;
+}
+/* HTML5/CSS3 */
+.fa-code{
+  padding: 28px;
+}
+/* Responsive Design */  
+.fa-arrows-h{
+  padding: 30px;
+}
+/* Wireframe */  
+.fa-sitemap{
+  padding: 26px;
+}
+
+/* Research */  
+.fa-search{
+  padding: 27px;
+} 
+/* Presentation */  
+.fa-picture-o{
+  padding: 29px;
+}
+/* Visual Consultant */  
+.fa-eye{
+  padding: 27px;
+}    
+/* Art Direction */  
+.fa-arrows{
+  padding: 28px;
+}    
+/* Internet Safety */  
+.fa-puzzle-piece {
+  padding: 29px;
+}
+/* Staying Calm */  
+.fa-heart{
+  padding: 29px;
+}
+
+.splashContainer-skills ul {
+  float: left;
+  margin-bottom: 20px;
+  width: 20%;
+} 
+
+.splashContainer-skills ul p {
+  font-weight: bold;
+}    
+
+.splashContainer-skills > h1 {
+  font-size: 70px;
+}
+
+.splashContainer-skills > p:nth-child(2) {
+  font-size: 14px;
+  margin: 0 auto 30px;
+  width: 305px;
+}  
+
+h1 {font-size: 60px;}  
+
+h3 {
+  padding: 16px 0;
+}
+
+/* Description of the projects */
+.row h2,
+.row p,
+.row ul li{
+  text-align: left;
+}
+
+.row h2{
+  font-weight: bold;
+  margin-bottom:5px;
+  font-size: 16px;
+}
+.row p{
+  color:#777;
+  font-size: 13px;
+}
+.row ul li{
+  color:#999;
+  font-size: 12px;
+}
+.row ul{
+  margin-top: 0px;
+}
+  
+/* ##################################### */
+/*      Sub_Global: Project img hover    */
+/* ##################################### */
+/* To fit the size of the project image  */ 
+
+
+/* helloCode */ 
+#helloCode .caption {
+  height: 116%;
+  top: -65px;
+  width: 95.8%;}
+#helloCode .caption i{margin-top: 24%;}
+/* catchSuperman */
+#catchSuperman .caption {
+  height: 118%;
+  top: -64px;
+  width: 95.8%;}
+#catchSuperman .caption i{margin-top: 20%;}
+/* pixelxpixel */
+#pixelxpixel .caption {
+  height: 118%;
+  top: -64px;
+  width: 95.8%;}
+#pixelxpixel .caption i{margin-top: 21%;}
+/* nike */
+#nike .caption {
+  height: 117%;
+  top: -64px;
+  width: 95.8%;}
+#nike .caption i{margin-top: 21%;}
+/* sebastianfaena */
+#sebastianfaena .caption {
+  height: 115%;
+  top: -64px;
+  width: 95.8%;}
+#sebastianfaena .caption i{margin-top: 26%;}
+/* kateSpade */
+#kateSpade .caption {
+  height: 116%;
+  top: -64px;
+  width: 95.8%;}
+#kateSpade .caption i{margin-top: 24%;}
+/* homeMade */
+#homeMade .caption {
+  height: 116%;
+  top: -64px;
+  width: 95.8%;}
+#homeMade .caption i{margin-top: 23%;}
+/* lancome */
+#lancome .caption {
+  height: 114%;
+  top: -64px;
+ width: 95.8%;}
+#lancome .caption i{margin-top: 27%;}
+/* recyclingCode */
+#recyclingCode .caption {
+  height: 119%;
+  top: -64px;
+  width: 95.8%;}
+#recyclingCode .caption i{margin-top: 20%;}
+/* VirtualRelaxation */
+#VirtualRelaxation .caption {
+  height: 119%;
+  top: -64px;
+  width: 95.8%;}
+#VirtualRelaxation .caption i{margin-top: 20%;}
+/* slitScan */
+#slitScan .caption {
+  height: 118%;
+  top: -64px;
+  width: 95.8%;}
+#slitScan .caption i{margin-top: 21%;}   
+
+}
+
+@media (min-width: 992px) {
+.pull-right {float: right !important;}
+
+h1 {font-size: 60px;}
+.container {width: 970px;}
+
+.splashContainer-01,
+.splashContainer-skills {
+  position: absolute;
+  text-align: left;
+  margin-left: 25px;}
+
+.splashContainer-skills {
+  margin-top: 11%;
+  width: 770px;
+}
+.splashContainer-skills ul.list-inline li a {
+  cursor:crosshair;
+}
+.splashContainer-01 {margin-top: 45%;  width: 460px;}
+
+.splashContainer-01 p {
+  margin: 0px;
+  width: 400px;}
+
+.splashContainer-01 p {
+  font-size: 14px;
+  margin: 0 auto;
+  width: 500px;}  
+
+.splashContainer-skills ul p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.splashContainer-skills .list-inline > li {
+  display: block;
+  text-align: center;
+}
+
+.splashContainer-skills > p:nth-child(2) {
+  margin: 15px 0;
+}
+
+.splashContainer-01 ul{margin-top: 15px;}  
+
+/* Tools and toys
+* --------------------------------------- */
+#section5 .layer {
+  padding-left: 25px;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  z-index: 4;
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#section5{
+  overflow: hidden;
+}
+
+#section5 .layer ul li p {
+  color: #ccc;
+}
+.splashContainer-skills > h1 {
+  font-size: 70px;
+}
+
+/* ##################################### */
+/*      Sub_Global: Project img hover    */
+/* ##################################### */
+/* To fit the size of the project image  */ 
+
+
+/* helloCode */ 
+#helloCode .caption {
+  height: 112%;
+  top: -65px;
+  width: 96.8%;}
+#helloCode .caption i{margin-top: 27%;}
+/* catchSuperman */
+#catchSuperman .caption {
+  height: 113.1%;
+  top: -64px;
+  width: 96.8%;}
+#catchSuperman .caption i{margin-top: 20%;}
+/* pixelxpixel */
+#pixelxpixel .caption {
+  height: 113%;
+  top: -64px;
+  width: 96.8%;}
+#pixelxpixel .caption i{margin-top: 22%;}
+/* nike */
+#nike .caption {
+  height: 112.3%;
+  top: -64px;
+  width: 96.8%;}
+#nike .caption i{margin-top: 23%;}
+/* sebastianfaena */
+#sebastianfaena .caption {
+  height: 111%;
+  top: -64px;
+  width: 96.8%;}
+#sebastianfaena .caption i{margin-top: 28%;}
+/* kateSpade */
+#kateSpade .caption {
+  height: 112%;
+  top: -64px;
+  width: 96.8%;}
+#kateSpade .caption i{margin-top: 25%;}
+/* homeMade */
+#homeMade .caption {
+  height: 112%;
+  top: -64px;
+  width: 96.8%;}
+#homeMade .caption i{margin-top: 25%;}
+/* lancome */
+#lancome .caption {
+  height: 110.4%;
+  top: -64px;
+  width: 96.8%;}
+#lancome .caption i{margin-top: 27%;}
+/* recyclingCode */
+#recyclingCode .caption {
+  height: 114%;
+  top: -64px;
+  width: 96.8%;}
+#recyclingCode .caption i{margin-top: 21%;}
+/* VirtualRelaxation */
+#VirtualRelaxation .caption {
+  height: 114.5%;
+  top: -64px;
+  width: 96.8%;}
+#VirtualRelaxation .caption i{margin-top: 21%;}
+/* slitScan */
+#slitScan .caption {
+  height: 113%;
+  top: -64px;
+  width: 96.8%;}
+#slitScan .caption i{margin-top: 22%;}   
+
+}
+@media (min-width: 1200px) {
+.container {width: 1024px;}
+video {display: block;}
+
+h1 {font-size: 36px;}
+
+#section5 .layer {
+  text-align: left;
+}
+
+.splashContainer-skills > p:nth-child(2) {
+  margin: 0 0 20px;
+}
+.splashContainer-skills ul {
+  width: 20%;
+  margin-left: -30px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.splashContainer-skills ul p {
+  font-weight: 600;
+}
+.row p,
+.row ul li {
+  font-size: 14px;
+}
+
+#section5 .layer p,
+#section5 .layer h1 {
+  color: white;
+}
+
+.circle-icon {
+  height: 60px;
+  padding: 15px;
+  width: 60px;
+}
+
+/* ##################### */
+/*    SECTION: Skill     */
+/* ##################### */
+
+
+/* Icon: UX/UI Design */
+.fa-random {
+  padding: 32px;
+}
+/* HTML5/CSS3 */
+.fa-code{
+  padding: 28px;
+}
+/* Responsive Design */  
+.fa-arrows-h{
+  padding: 30px;
+}
+/* Wireframe */  
+.fa-sitemap{
+  padding: 26px;
+}
+
+/* Research */  
+.fa-search{
+  padding: 27px;
+} 
+/* Presentation */  
+.fa-picture-o{
+  padding: 29px;
+}
+/* Visual Consultant */  
+.fa-eye{
+  padding: 27px;
+}    
+/* Art Direction */  
+.fa-arrows{
+  padding: 28px;
+}    
+/* Internet Safety */  
+.fa-puzzle-piece {
+  padding: 29px;
+}
+/* Staying Calm */  
+.fa-heart{
+  padding: 29px;
+}
+
+/* ##################################### */
+/*      Sub_Global: Project img hover    */
+/* ##################################### */
+/* To fit the size of the project image  */ 
+
+
+/* helloCode */ 
+#helloCode .caption {
+  height: 536px;
+  top: -64px;
+  width: 97%;}
+#helloCode .caption i{margin-top: 25%;}
+/* catchSuperman */
+#catchSuperman .caption {
+  height: 483px;
+  top: -64px;
+  width: 97%;}
+#catchSuperman .caption i{margin-top: 22%;}
+/* pixelxpixel */
+#pixelxpixel .caption {
+  height: 485px;
+  top: -64px;
+  width: 97%;}
+#pixelxpixel .caption i{margin-top: 22%;}
+/* nike */
+#nike .caption {
+  height: 510px;
+  top: -64px;
+  width: 97%;}
+#nike .caption i{margin-top: 22%;}
+/* sebastianfaena */
+#sebastianfaena .caption {
+  height: 568px;
+  top: -64px;
+  width: 97%;}
+#sebastianfaena .caption i{margin-top: 26%;}
+/* kateSpade */
+#kateSpade .caption {
+  height: 534px;
+  top: -64px;
+  width: 97%;}
+#kateSpade .caption i{margin-top: 24%;}
+/* homeMade */
+#homeMade .caption {
+  height: 528px;
+  top: -64px;
+  width: 97%;}
+#homeMade .caption i{margin-top: 23%;}
+/* lancome */
+#lancome .caption {
+  height: 609px;
+  top: -64px;
+  width: 97%;}
+#lancome .caption i{margin-top: 26%;}
+/* recyclingCode */
+#recyclingCode .caption {
+  height: 457px;
+  top: -64px;
+  width: 97%;}
+#recyclingCode .caption i{margin-top: 20%;}
+/* VirtualRelaxation */
+#VirtualRelaxation .caption {
+  height: 449px;
+  top: -64px;
+  width: 97%;}
+#VirtualRelaxation .caption i{margin-top: 20%;}
+/* slitScan */
+#slitScan .caption {
+  height: 486px;
+  top: -64px;
+  width: 97%;}
+#slitScan .caption i{margin-top: 21%;}
+
+}
