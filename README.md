@@ -22,3 +22,4 @@ Designer and Front-end Designer
 #### Debug:
 - Mobile responsive hover layer is outside.
 - Glitch in #section0 .splashContainer-01 opening index.php, in load time.
+# JulioMontas.com-v3.9
