@@ -4,66 +4,57 @@
 </head>
 
 <div class="frame">
+
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">Slit-scan</span> Creating glitch art with only a scanner to achieve an authentic glitch pattern without the use of a computer.</p>
+      <p><span class="titlePG">Slit-scan</span> creating glitch art with only a scanner to achieve an authentic glitch pattern without the use of a computer.</p>
       <p class="titleSub">Experimental<span class="yellow"> . </span>Glitch art<span class="yellow"> . </span>2015</p>
     </div>
   </div>
-</div>
 
-<div class="frame">
   <div class="bit-1">
     <div class="work01" id="project">
-      <img src='img/projects/slit_scan01.jpg'>
-      <p>01</p>
+      <p>8.5 x 11 Inches.gif</p>
+      <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
+      <img src='img/projects/SlitScan/Slip_Scan_museumVR_1024.gif'>
     </div>
   </div>
-</div>
 
-<div class="frame">
   <div class="bit-1">
     <div class="work02" id="project">
-      <img src='img/projects/slit_scan02.jpg'>
-      <p>02</p>
+      <img src='img/projects/SlitScan/slit_scan01.jpg'>
     </div>
   </div>
-</div>
 
-<div class="frame">
   <div class="bit-1">
     <div class="work03" id="project">
-      <img src='img/projects/slit_scan03.jpg'>
-      <p>03</p>
+      <img src='img/projects/SlitScan/slit_scan02.jpg'>
     </div>
   </div>
-</div>
 
-<div class="frame">
   <div class="bit-1">
     <div class="work04" id="project">
-      <img src='img/projects/slit_scan04.jpg'>
-      <p>04</p>
+      <img src='img/projects/SlitScan/slit_scan03.jpg'>
     </div>
   </div>
-</div>
 
-<div class="frame">
   <div class="bit-1">
     <div class="work03" id="project">
-      <img src='img/projects/slit_scan05.jpg'>
-      <p>05</p>
+      <img src='img/projects/SlitScan/slit_scan04.jpg'>
     </div>
   </div>
-</div>
 
-<div class="frame">
   <div class="bit-1">
-    <div class="work04" id="project">
-      <img src='img/projects/slit_scan06.jpg'>
-      <p>06</p>
+    <div class="work02" id="project">
+      <img src='img/projects/SlitScan/slit_scan05.jpg'>
     </div>
   </div>
-</div>
 
+  <div class="bit-1">
+    <div class="work03" id="project">
+      <img src='img/projects/SlitScan/slit_scan06.jpg'>
+    </div>
+  </div>
+
+</div>
 <?php require_once("projectFooter.php"); ?>

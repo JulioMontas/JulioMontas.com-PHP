@@ -1,59 +1,27 @@
 /*
-###############################
-######### Google Font #########
-###############################
-*/
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/EInbV5DfGHOiMmvb1Xr-hqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-
-/*
 ##########################
 ######### Global #########
 ##########################
 */
 
 body{
-  background: #000;
-  font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  line-height:20px; 
+  background: linear-gradient(135deg, #164C88, #444);
+  font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:20px;
 }
 
 .boxScrollUp {
   text-align: center;
   background:#fbc510;
-  color: #fff;
   padding: 15px 0 15px 0;
 }
 
-canvas {
-  width: 100%; height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+.boxScrollUp a{color: yellow;}
+.boxScrollUp a:hover{color: white;}
+.blankLink {display: block;}
+
+
+ul{list-style-type: none;}
 /*
 #####################################
 ######### Typography + Link #########
@@ -66,229 +34,48 @@ p {
   line-height: 22px;
 }
 
-.ghostLinkOn h2 {
-  font-size: 18px;
-  color:#212121;
-  letter-spacing: 1.5px;
-  text-transform:uppercase;
-}
-h2 {
-  font-size: 28px;
-  color:#ffcf01;
-  letter-spacing: 1.5px;
-  text-transform:uppercase;
-}
-.ghostLinkOn p{
-  font-style: normal;
-  font-size:13px;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  color:#212121;
-  letter-spacing: 1.5px;
-  line-height:22px;
-}
-#oneOFtree{
-  width:100%;
-  margin: 0 auto;
-  padding-top: 75px;
-}
-#oneOFtree p{
-  width:390px;
-  margin: 15px auto 0;
-}
-#oneOFtree a, #project a{
-  color: #ffcf01;
-  text-decoration: none;
-  -webkit-transition: background 1s ;
-  -moz-transition: background 1s ;
-  -o-transition: background 1s ;
-  -ms-transition: background 1s ;
-  transition: background 1s;
-}
-#oneOFtree a:hover, #project a:hover {
-  border-bottom: 2px solid #ffcf01;
-  display:inline;
-  color: #fff;
-}
-
-
-#project a:hover {
-  border-bottom: 2px solid #ffcf01;
-  display:inline;
-  color: #212121;
-}
-
-
-/*
-######################################
-######### Full Screen Loader #########
-######################################
-*/
-
-#cover {
-  height: 100%;
-  width: 100%;
-  opacity:0.95;
-  filter:alpha(opacity=95);
-  background-color:#ffcf01;
-  position:fixed;
-  top:0px;
-  left:0px;
-  z-index:1;
-}
-
-#cover img {
-  height: 54px;
-  width: 55px;
-  position:absolute;
-  top:64%;
-  left:58%;
-  margin:-150px 0 0 -150px;
-  
-}
-
-/*
-####################################
-######### Box Landing Page #########
-####################################
-*/
-
-.boxLandingPage {
-  text-align: center;
-  font: 14px "Helvetica Neue";
-  color: #fff;
-  height: 500px;
-}
-.name {height: 236px;}
-.personal {height: 144px;padding-top: 50px;}
-.socialMedia {height: 114px;padding-top: 40px;}
-.box01 {border-color:#ffcf01 #ffcf01 #ffcf01 #212121;}
-.box02 {border-color:#ffcf01 #212121 #ffcf01 #ffcf01;}
-.box04 {border-color:#000000 #FFCF01;height:120px;}
-.box01, .box02, .box04 {border-style:solid;border-width:1px;}
-
-.blankLink {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    opacity:0.4;filter:alpha(opacity=40);}
-
-.blankLink:hover {
-    opacity:0.8;filter:alpha(opacity=80);}
-
-.ghostLinkOff {display:inline-block;width:100%;height:100%;}
-.ghostLinkOn {
-  color: #212121;
-  background: rgb(251, 208, 22);
-  background: rgba(251, 208, 22, 0.95); 
-  padding: 30px;
-  width: 80%;
-  display: none;
-  margin: 0 auto;
-  margin-top: -310px;
-}
-.ghostLinkOn p, h2 {pointer-events: none;}
-.ghostLinkOff:hover + .ghostLinkOn {display: block;}
-
-
-/*
-############################################
-######### Navigation Animated Icon #########
-############################################
-*/
-
-.burger {cursor: pointer;float: right;margin: 5px 10px;width: 33px;z-index:2;}
-.burger-brick {height: 4px;background: #ffcf01;margin-top: 6px;-webkit-transition: 0.3s ease-out;-moz-transition: 0.3s ease-out;-ms-transition: 0.3s ease-out;-o-transition: 0.3s ease-out;transition: 0.3s ease-out;}
-.open .burger-brick:first-child {-webkit-transform: rotate(405deg);-moz-transform: rotate(405deg);-ms-transform: rotate(405deg);-o-transform: rotate(405deg);transform: rotate(405deg);margin-top: 14px;}
-.open .burger-brick:last-child {-webkit-transform: rotate(-405deg);-moz-transform: rotate(-405deg);-ms-transform: rotate(-405deg);-o-transform: rotate(-405deg);transform: rotate(-405deg);margin-top: -14px;}
-.open .middle {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);}
-
-/*
-##############################
-#### Full Menu Navigation ####
-##############################
-*/
-
-header{width: 100%;z-index:2;position:fixed; }
-#fullMenu { 
-  display: none;
-  background-color:#000;
-  position:fixed;
-  width:100%;
-  height:100%;
-  top:0px;‹
-  left:0px;
-  z-index:1;
-  opacity: 0.82;
-}
-
-  .tinyText {
-    color: #fefe76;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 0.5px;
-    position: relative;
+#project.project-btn a {
+    background: #ffcf01 none repeat scroll 0 0;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    padding: 10px 0;
     text-decoration: none;
-    transition: color 1s ease 0s;
-    z-index: 1;}
-
-#fullMenu nav{width: 550px;text-align: center;}
-#fullMenu nav ul {
-  height: auto;
-  left: 44%;
-  list-style-type: none;
-  margin: -150px 0 0 -150px;
-  position: absolute;
-  top: 29%;}
-
-#fullMenu nav ul li{
-  margin-bottom: 90px;}  
-
-#fullMenu > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1){
-  margin-top: 35%;
+}
+#project.project-btn a:hover {
+    border: none;
+    color: yellow;
 }
 
-.hugeText {
-  font-size: 90px;
-  font-weight: bold;
-  z-index: 1;
-  text-decoration: none;
-  color:#ffcf01;
-  position: relative;
-  -webkit-transition: color 1s ;
-  -moz-transition: color 1s ;
-  -o-transition: color 1s ;
-  -ms-transition: color 1s ;
-  transition: color 1s;
+#project h2 {
+    color: #333;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
 
-.fullViewOn,
-.fullViewOff:hover {
-  /*border-bottom: 15px solid #ffcf01;*/
-  color: #333;
-  display: inline;
-}   
-
-/* Let you view the elements when the full Menu is open
-========================================================== */
-
-#oneOFtree, #project a, #description p, footer h2{
-  position: relative;
-  z-index: 0;
+#project h3 {
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 auto;
+    width: 70%;
 }
 
 
 /* Below this text all the css needs to get CLEAN
 ================================================== */
 
-.yellow{color: #ffcf01;}  
+.yellow{color: #ffcf01;}
 
 /* #Project Description
 ================================================== */
 
 #description {
-  padding: 70px 0 28px;
-  background-color: black;
-  background-image: linear-gradient(to top, black, #212121);}
+   padding: 95px 0 28px;
+}
 
 .titlePG{
   color:#ffcf01;
@@ -296,8 +83,7 @@ header{width: 100%;z-index:2;position:fixed; }
   font-size:30px;}
 
 .titleSub{
-  font-size:16px;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size:18px;
   letter-spacing: 1.5px;}
 
 #description p {
@@ -308,36 +94,15 @@ header{width: 100%;z-index:2;position:fixed; }
   color:#ffffff;}
 
 #description p:nth-child(1) {
-  font-size:24px;
+  font-size:18px;
   line-height: 32px;}
 
 #description p:nth-child(2) {
-  margin-top:20px;
-  margin-bottom:40px;
+  margin-bottom: 3%;
+    margin-top: 20px;
 }
 
-#description a {
-  margin:0 auto;
-  width:230px;
-  display:block;
-  font-size: 14px;
-  text-decoration: none;
-  
-}
 
-#description .btnPG02{
-  border: 1px solid #212121;
-  background:#FFF;
-  color:#212121;
-  margin-bottom: -54px;
-  padding:15px 0;
-  position:relative;
-  text-align: center;
-}
-
-#description .btnPG02:hover{
-  color:#FFCF01;
-}
 
 /* #Project Images
 ================================================== */
@@ -345,40 +110,87 @@ header{width: 100%;z-index:2;position:fixed; }
 #project {
   text-align: center;
 }
-.work01 {
-  background-color: #F6F6F6;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3) inset;
-  padding: 70px 0 60px;
+.work01,
+.work02,
+.work03,
+.work04{
+  padding: 70px 0;
 }
-.work02 {
-  background-color: #EEF1F2;
-  padding: 70px 0 60px;
+
+.work01 {background-color: #f6f6f6;}
+.work02 {background-color: #EEF1F2;}
+.work03 {background-color: #f6f6f6;}
+.work04 {background-color: #EEF1F2;}
+
+#project img{
+  width:1024px;
+  border: 1px solid #ccc;
 }
-.work03 {background-color: #f6f6f6; padding: 70px 0 60px}
-.work04 {background-color: #eef1f2; padding: 70px 0 60px}
-#project img{width:1024px;border: 1px solid #ccc;}
+
 #project p {
-  color: #212121;
-  font-weight: 600;
-  margin: 42px auto 0;
-  width: 900px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: -29px;
 }
 
 .projectTab{
   margin-bottom: -5px;
-  position: relative;        
+  position: relative;
 }
 
-/* #More Project Thumbnails 
+#project.languageDetails ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#project.languageDetails ul li {
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+#project.languageDetails ul li b {
+    font-weight: 600;
+    margin-right: 4px;
+    font-size: 16px;
+    color: #333;
+}
+#project.languageDetails a {
+    background: #fbc510 none repeat scroll 0 0;
+    color: #333;
+    display: inline-block;
+    margin-top: 38px;
+    padding: 15px 0;
+    width: 230px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+#project.languageDetails a:hover {
+    border: medium none;
+    color: yellow;
+}
+
+#project.iphoneIMG img{
+  width: 50%;
+}
+
+#project.iphoneIMG p {
+  margin-bottom: -24px;
+}
+
+/* #More Project Thumbnails
 ================================================== */
 
 #more_project {
-  padding:0px 0; 
-  background-color:#2e3641
+  padding:0px 0;
+  background: linear-gradient(135deg, #164C88, #444);
 }
 
 footer {
-  background-color:#212121;
+  background: linear-gradient(135deg, #164C88, #444);
   color:#FFF;
   margin: 0 auto;
   text-align: center;
@@ -399,7 +211,6 @@ footer ul li a{
   transition: background 1s;
 }
 footer ul li a:hover{
-  border-bottom: 2px solid #ffcf01;
   display:inline;
   color: #fff;
 }
@@ -410,7 +221,6 @@ footer h2{
   color: #FFFFFF;
 }
 
-#projects ul:nth-child(3) {background-color: #eef1f2;}
 footer p:nth-child(2) {margin-bottom: 5px;}
 footer p:nth-child(4) {
   color:#999;
@@ -447,31 +257,35 @@ footer p:nth-child(4) {
   font-size: 14px;
 }
 
-
-
 figure {
   float: right;
   width: 232px;
   margin: 10px 50px;
 }
 
-#panel-2:hover .thumbnail-overlay, 
-#panel-4:hover .thumbnail-overlay, 
-#panel-10:hover .thumbnail-overlay,
-#panel-8:hover .thumbnail-overlay, 
-#panel-5:hover .thumbnail-overlay, 
+#panel-2:hover .thumbnail-overlay,
+#panel-4:hover .thumbnail-overlay,
+#panel-8:hover .thumbnail-overlay,
+#panel-5:hover .thumbnail-overlay,
 #panel-6:hover .thumbnail-overlay,
-#panel-7:hover .thumbnail-overlay, 
-#panel-3:hover .thumbnail-overlay, 
+#panel-7:hover .thumbnail-overlay,
+#panel-3:hover .thumbnail-overlay,
 #panel-9:hover .thumbnail-overlay,
 #panel-10:hover .thumbnail-overlay,
-#panel-11:hover .thumbnail-overlay, 
+#panel-11:hover .thumbnail-overlay,
 #panel-12:hover .thumbnail-overlay,
 #panel-13:hover .thumbnail-overlay,
 #panel-14:hover .thumbnail-overlay,
 #panel-15:hover .thumbnail-overlay,
 #panel-16:hover .thumbnail-overlay,
-#panel-17:hover .thumbnail-overlay{
+#panel-17:hover .thumbnail-overlay,
+#panel-18:hover .thumbnail-overlay,
+#panel-19:hover .thumbnail-overlay,
+#panel-20:hover .thumbnail-overlay,
+#panel-21:hover .thumbnail-overlay,
+#panel-22:hover .thumbnail-overlay,
+#panel-23:hover .thumbnail-overlay,
+#panel-24:hover .thumbnail-overlay{
   display: block;
   opacity: 0.9;
 }
@@ -525,140 +339,78 @@ figure {
 }
 
 
-/*
-############################
-######### About Me #########
-############################
-*/
-
-#about {
-  color: #fbc510;
-  margin: 15px 0 0 5%;
-  position: absolute;
-  letter-spacing: 1px;
-  font-size: 0.9em;
-  font-weight: 300;
-}
-
-#about h2,  #about h3{font-size: 1em;}
-#about h3{font-weight: 300;}
-#about h2, .aboutl{font-weight: 600;}
-
-#about p {
-  color: #c6c6c6;
-  margin-bottom: 40px;
-  font-size: 1em;
-}
-
-#about a {
-  color: #fff;
-}
-#about a:hover {
-  text-decoration: none;
-}
-
-.aboutchunk {
-  display: inline-block;
-  height: auto;
-  margin-top: 54px;
-  width: 880px;
-}
-.aboutl {
-  cursor: default;
-  float: left;
-  margin-top: -4px;
-  text-align: right;
-  width: 130px;
-}
-.aboutr {
-  cursor: default;
-  float: left;
-  line-height: 155%;
-  margin-top: -5px;
-  padding-left: 90px;
-  width: 720px;
-}
-.tinyBox01{
-  width: 210px;
-  float: left;
-}
-
 /* Landscape mobile & down */
 @media (max-width: 30em) {
 
 /*Project Page */
-
 #description p,
 #project img,
+#project.iphoneIMG img,
 #project p,
 #panel-2 {
-  width: 90%;
+  width: 95%;
 }
-#cover,
-canvas {
-  display: none;
+
+#project p{
+  margin: 0 auto;
 }
-.hugeText {
-  font-size: 55px;
+
+#description {
+  padding: 20% 0 0;
 }
-#oneOFtree, #project a, #description p, footer h2 {
+#description p:nth-child(1) {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#description p:nth-child(2) {
+  font-size: 14px;
+  margin-bottom: 15%;
+  margin-top: 40px;
+}
+
+.typeform-share.button {
+  width: 50%;
+}
+
+
+ul {
+  margin-bottom: 25px;
+}
+
+
+#project a,
+#description p,
+footer h2 {
   position: relative;
   z-index: 0;
 }
-#fullMenu nav ul {left: 55%;top: 22%;}   
 
-
-/* Index Boxes */
-
-.box01, .box02,.box03,.box04,.box05 {
-  display: none;
+#project p,
+#project.iphoneIMG p {
+  margin-bottom: 0px;
 }
 
 
-.boxLandingPage {
-  height: 18em;
-}   
 
-.ghostLinkOn {
-  margin: -13.5em auto 0;
-  padding: 23px;
-  width: 80%;
-  display: block;
+.work01,
+.work02,
+.work03,
+.work04 {
+  padding: 30px 0 40px;
 }
 
-#oneOFtree p {
-  margin: 3px auto 0;
-  width: 83%;
+#project.languageDetails a {
+  margin-top: -10px;
+}
+#project.languageDetails ul {
+  flex-direction: column;
+}
+#project.languageDetails ul li {
+  margin-bottom: 10px;
 }
 
-/* Resume */
-.aboutchunk {width: 100%;}
 
-.aboutl {
-  text-align: left;
-  width: 12px;
-}
-
-.aboutr {width: 90%;}
-#fullMenu nav ul {
-    left: 54%;
-    top: 31%;
-}
-#fullMenu nav li:nth-child(2),
-#fullMenu nav li:nth-child(3){
-    margin-top: 25px;
-}
-#fullMenu nav li:nth-child(4),
-#fullMenu nav li:nth-child(5),
-#fullMenu nav li:nth-child(6),
-#fullMenu nav li:nth-child(7),
-#fullMenu nav li:nth-child(8),
-#fullMenu nav li:nth-child(9),
-#fullMenu nav li:nth-child(10),
-#fullMenu nav li:nth-child(11){
-    margin-top: 15px;
-}
-#fullMenu nav li:nth-child(12) {margin-top: 25px;}
 
 }
 
@@ -666,37 +418,40 @@ canvas {
 @media (min-width: 30em) and (max-width: 50em) {
 
 
+
 #description p,
 #project img,
+#project.iphoneIMG img,
 #panel-2{
   width: 90%;
 }
-#project p {width: 95%;}
 
-canvas, #cover, .blankLink, .box01, .box02, .socialMedia {
-  display: none;
-}
-.boxScrollUp {padding: 1px 0;}
-
-}
-/* Resume */
-#about {
-  margin: 15px 0 0 2%;
+#project.iphoneIMG p {
+  margin-bottom: 15px;
 }
 
-.aboutchunk {width: 100%;}
+#project p {
+  width: 95%;
+  font-size: 1em;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#description {
+  padding: 10% 0 5%;
+}
+
+.typeform-share.button {
+  width: 60%;
+}
+
 
 div.frame:nth-child(4) > div:nth-child(1) > div:nth-child(1),
 div.frame:nth-child(7) > div:nth-child(6) > div:nth-child(1){
   height: 290px;
 }
 
-.ghostLinkOn {
-  margin: -21.5em auto 0;
-  padding: 23px;
-  width: 80%;
-  display: block;
-}
+
 
 }
 
@@ -704,17 +459,13 @@ div.frame:nth-child(7) > div:nth-child(6) > div:nth-child(1){
 @media (min-width: 50em) and (max-width: 68.750em) {
 #description p {width: 70%;}
 #project p {width: 95%;}
+
 #project img,
 #panel-2 {
   width: 90%;
-  color: red;
 }
-canvas,
-#cover,
-.blankLink
-{
-  display: none;
-}
+
+
 .boxScrollUp {padding: 1px 0;}
 /* Index Boxes */
 
