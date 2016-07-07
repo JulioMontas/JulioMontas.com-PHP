@@ -6,7 +6,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">Sebastianfaena.com</span> a micro-site for fashion photographer Sebastian Faena.</p>
+      <p><span class="titlePG">Sebastianfaena.com</span> is a micro-site for fashion photographer Sebastian Faena.</p>
       <p class="titleSub">Microsite<span class="yellow"> . </span>Freelance<span class="yellow"> . </span>2013</p>
     </div>
   </div>
@@ -27,7 +27,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>The landing page image changes to a shuffled image each time it is refreshed.gif</p>
+      <p>The landing page image changes to a shuffled image each time it is refreshed</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/SebastianFaena/SebastianFaena_Wireframe_01.gif'>
     </div>
@@ -35,7 +35,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>The only link in the page was for he's E-Mail.gif</p>
+      <p>Simple design with a single link for e-mail</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/SebastianFaena/SebastianFaena_Wireframe_02.gif'>
     </div>

@@ -7,7 +7,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG"> Nike: Retail iPad App</span>  re-skinning an in-store app to match the look and feel of Nike branding.</p>
+      <p><span class="titlePG"> Nike: Retail iPad App</span>  Re-skinning an existing in-store app to match the look and feel of Nike branding for wider store distribution.</p>
       <p class="titleSub">UI Design<span class="yellow"> . </span>Agency Work<span class="yellow"> . </span>2014</p>
     </div>
   </div>
@@ -38,7 +38,7 @@
 
   <div class="bit-1">
     <div class="work04" id="project">
-      <p>Past design.jpg</p>
+      <p>Past design</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src="img/projects/Nike/n07.jpg" onmouseover="this.src='img/projects/Nike/n08.jpg'" onmouseout="this.src='img/projects/Nike/n07.jpg'" border="0" alt="" />
     </div>
@@ -46,7 +46,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>Past design.jpg</p>
+      <p>Past design</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src="img/projects/Nike/n09.jpg" onmouseover="this.src='img/projects/Nike/n10.jpg'" onmouseout="this.src='img/projects/Nike/n09.jpg'" border="0" alt="" />
     </div>

@@ -7,7 +7,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">Catch Superman</span> a web art piece. Catch Superman is a game with a very simple, but very impossible goal.</p>
+      <p><span class="titlePG">Catch Superman</span> is a web art piece. It is a very simple game with a very impossible goal.</p>
       <p class="titleSub">Web Art<span class="yellow"> . </span>Side Project<span class="yellow"> . </span>2015</p>
     </div>
   </div>
@@ -20,7 +20,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Once the mouse enters the browser screen, superman speeds up.gif</p>
+      <p>Once the mouse enters the browser screen, superman speeds up</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/CatchSuperman/cs01.gif'>
     </div>
@@ -28,7 +28,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Gif instructions on how to play the undefeatable game.gif</p>
+      <p>Gif instructions on how to play the undefeatable game</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/CatchSuperman/cs02.gif'>
     </div>

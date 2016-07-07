@@ -19,7 +19,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>When both player are clicking for the win.gif</p>
+      <p>When both players are clicking for the win</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_BothPlayer_1080.gif'>
     </div>
@@ -27,7 +27,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Left side wins.gif</p>
+      <p>Left side wins</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_LeftWon_1080.gif'>
     </div>
@@ -35,7 +35,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-        <p>Right side wins.gif</p>
+        <p>Right side wins</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_RightWon_1080.gif'>
     </div>
@@ -59,7 +59,7 @@
 
     <div class="bit-1">
       <div class="work02 iphoneIMG" id="project">
-        <p>Start the game.png</p>
+        <p>Start the game</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_IPhone_Sketch_01.png'>
      </div>
@@ -67,7 +67,7 @@
 
     <div class="bit-1">
       <div class="work03 iphoneIMG" id="project">
-        <p>Player 1 in 75%.png</p>
+        <p>Player 1 in 75%</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_IPhone_Sketch_02.png'>
      </div>
@@ -75,7 +75,7 @@
 
     <div class="bit-1">
       <div class="work04 iphoneIMG" id="project">
-          <p>Graphics.png</p>
+          <p>Graphics</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_IPhone_Sketch_03.png'>
      </div>
@@ -89,7 +89,7 @@
 
     <div class="bit-1">
       <div class="work04" id="project">
-        <p>Sketch_01.jpg</p>
+        <p>Sketch 01</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Sketch_01.jpg'>
      </div>
@@ -97,7 +97,7 @@
 
     <div class="bit-1">
       <div class="work03" id="project">
-        <p>Sketch_02.jpg</p>
+        <p>Sketch 02</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Sketch_02.jpg'>
      </div>
@@ -105,12 +105,11 @@
 
     <div class="bit-1">
       <div class="work02" id="project">
-        <p>Sketch_03.jpg</p>
+        <p>Sketch 03</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Sketch_03.jpg'>
      </div>
     </div>
-
 
     <div class="bit-1">
       <div class="work03" id="project">
@@ -120,7 +119,7 @@
 
     <div class="bit-1">
       <div class="work02" id="project">
-        <p>Use Adobe Illustrator to explore different level design ideas.gif</p>
+        <p>Using Adobe Illustrator to explore different level design ideas</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Wireframe_01_1280.png'>
      </div>
@@ -128,7 +127,7 @@
 
     <div class="bit-1">
       <div class="work03" id="project">
-        <p>Two player game.gif</p>
+        <p>Two player game</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Wireframe_02_1280.png'>
      </div>
@@ -136,7 +135,7 @@
 
     <div class="bit-1">
       <div class="work04" id="project">
-        <p>The more column use the to generate a unique texture.gif</p>
+        <p>As levels increase, more columns are added to generate unique textures</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Wireframe_03_1280.png'>
      </div>
@@ -144,7 +143,7 @@
 
     <div class="bit-1">
       <div class="work03" id="project">
-        <p>Levels design if the difficulty increase.gif</p>
+        <p>Example of level design as the difficulty increases</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Width/Width_Wireframe_04_1280.png'>
      </div>

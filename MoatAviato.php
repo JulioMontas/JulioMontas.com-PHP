@@ -6,7 +6,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">Moat Aviato</span> a web app that calculates that distance between two airports.</p>
+      <p><span class="titlePG">Moat Aviato</span> is a web app that calculates the distance between two airports and provides travel options.</p>
       <p class="titleSub">Interview challange / Time Spent: 24hr 10min</p>
     </div>
   </div>
@@ -29,7 +29,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Landing page.gif</p>
+      <p>Landing page</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Website_00.gif'>
     </div>
@@ -37,7 +37,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Landing page.jpg</p>
+      <p>Landing page</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_WebsiteInfo_01_1080.jpg'>
     </div>
@@ -45,7 +45,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Landing page with an overlay page scroll.jpg</p>
+      <p>Landing page with an overlay page scroll</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_WebsiteInfo_02_1080.jpg'>
     </div>
@@ -53,7 +53,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Destination Page.jpg</p>
+      <p>Destination Page</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Website_01.jpg'>
     </div>
@@ -61,7 +61,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Flight options and Flight selection.jpg</p>
+      <p>Flight options and Flight selection</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Website_02.jpg'>
     </div>
@@ -69,7 +69,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Payment and booking information + Hover stage.jpg</p>
+      <p>Payment and booking information + Hover stage</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Website_03.jpg'>
     </div>
@@ -77,7 +77,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Payment confirmation.jpg</p>
+      <p>Payment confirmation</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Website_04.jpg'>
     </div>
@@ -85,13 +85,13 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <h2>Rought Sketching</h2>
+      <h2>Initial Rough Sketching</h2>
    </div>
   </div>
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>UI Design to search different types of air travel.jpg</p>
+      <p>UI Design to search different types of air travel</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Sketch_01_1080.jpg'>
     </div>
@@ -99,7 +99,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Input of trip details.jpg</p>
+      <p>Input of trip details</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Sketch_02_1080.jpg'>
     </div>
@@ -108,7 +108,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Hover stage when selecting flight options.jpg</p>
+      <p>Hover stage when selecting flight options</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Sketch_03_1080.jpg'>
     </div>
@@ -117,7 +117,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Flight data.jpg</p>
+      <p>Flight data</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Sketch_04_1080.jpg'>
     </div>
@@ -131,7 +131,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>User input of trip details.jpg</p>
+      <p>User input of trip details</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Wireframe_01.jpg'>
     </div>
@@ -139,7 +139,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Flight selection.jpg</p>
+      <p>Flight selection</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Wireframe_02.jpg'>
     </div>
@@ -147,13 +147,11 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Flight map shows distance between airports.jpg</p>
+      <p>Flight map shows distance between airports</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/MoatAviato/MoatAviato_Wireframe_03.jpg'>
     </div>
   </div>
-
-
 
 </div>
 <?php require_once("projectFooter.php"); ?>

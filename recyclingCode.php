@@ -7,7 +7,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">Recycling Code</span> a collection of visual experiments that explore different types of behaviors achieved by using the same creative codes with small variations</p>
+      <p><span class="titlePG">Recycling Code</span> is a collection of visual experiments that explore different types of behaviors achieved by using the same creative codes with small variations.</p>
       <p class="titleSub">Experimental<span class="yellow"> . </span>New Media<span class="yellow"> . </span>2015</p>
     </div>
   </div>
@@ -20,7 +20,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Process 1.gif</p>
+      <p>Process 1</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_02.gif'>
     </div>
@@ -28,7 +28,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Process 2.gif</p>
+      <p>Process 2</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_03.gif'>
     </div>
@@ -36,7 +36,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>Process 3 / 404 Background.gif</p>
+      <p>Process 3 / 404 Background</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_01.gif'>
     </div>
@@ -44,7 +44,7 @@
 
   <div class="bit-1">
     <div class="work04" id="project">
-      <p>Process 4 / Galaxy connecting dots.gif</p>
+      <p>Process 4 / Galaxy connecting dots</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_04.gif'>
     </div>
@@ -52,7 +52,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>Process 5 / Square Up Down.gif</p>
+      <p>Process 5 / Square Up Down</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_05.gif'>
     </div>
@@ -60,7 +60,7 @@
 
   <div class="bit-1">
     <div class="work04" id="project">
-      <p>Process 6 / Minecraft creeper background.gif</p>
+      <p>Process 6 / Minecraft creeper background</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_06.gif'>
     </div>
@@ -68,17 +68,13 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>Process 7.gif</p>
+      <p>Process 7</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/RecyclingCode/processing_07.gif'>
       <iframe src="https://player.vimeo.com/video/29133880" width="1024" height="525" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 
-
-
 </div>
-
-
 
 <?php require_once("projectFooter.php"); ?>

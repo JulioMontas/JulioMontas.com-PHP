@@ -9,7 +9,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">Lancome: Visionnaire [1 Minute Blur]</span> visual design of interactive video player including icons, buttons, sliders, and video player bar.</p>
+      <p><span class="titlePG">Lancome: Visionnaire [1 Minute Blur]</span> The client asked for a visual design of an interactive video player including icons, buttons, sliders, and video player bar.</p>
       <p class="titleSub">UI Design<span class="yellow"> . </span>Agency Work<span class="yellow"> . </span>2014</p>
     </div>
   </div>
@@ -22,7 +22,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Screenshot from the actual page.jpg</p>
+      <p>Screenshot of the microsite's landing page, featuring the video player</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/Lancome/lc01.jpg'>
     </div>
@@ -30,7 +30,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>_.jpg</p>
+      <p>Screenshot of interactive slider feature</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src="img/projects/Lancome/lc03.jpg" onmouseover="this.src='img/projects/Lancome/lc02.jpg'" onmouseout="this.src='img/projects/Lancome/lc03.jpg'" border="0" alt=""/>
     </div>
@@ -38,7 +38,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>_.jpg</p>
+      <p>Interactive before and after feature</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src="img/projects/Lancome/lc04.jpg" onmouseover="this.src='img/projects/Lancome/lc05.jpg'" onmouseout="this.src='img/projects/Lancome/lc04.jpg'" border="0" alt=""/>
     </div>
@@ -46,7 +46,7 @@
 
   <div class="bit-1">
     <div class="work04" id="project">
-      <p>End screen.jpg</p>
+      <p>End screen</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src="img/projects/Lancome/lc07.jpg" onmouseover="this.src='img/projects/Lancome/lc06.jpg'" onmouseout="this.src='img/projects/Lancome/lc07.jpg'" border="0" alt=""/>
     </div>
@@ -54,7 +54,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>1st design proposal of the video player in a microsite.jpg</p>
+      <p>1st design proposal of the video player in the microsite</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img src='img/projects/Lancome/lc08.jpg'>
     </div>

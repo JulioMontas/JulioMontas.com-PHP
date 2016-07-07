@@ -20,7 +20,7 @@
 
         <div class="bit-1">
           <div class="work01" id="project">
-            <p>The landing page background was animated using Processing.gif</p>
+            <p>The landing page background was animated using Processing</p>
             <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
             <img src='img/projects/HelloCode/hc01.gif'>
           </div>
@@ -28,7 +28,7 @@
 
         <div class="bit-1">
           <div class="work02" id="project">
-            <p>The list will ideally grow and evolve as a coder community effort.gif</p>
+            <p>The languages are organized alphabetically on tiles that also indicate the year in which they were created</p>
             <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
             <img src='img/projects/HelloCode/hc02.gif'>
           </div>
@@ -37,10 +37,10 @@
 
         <div class="bit-1">
          <div class="work03" id="project">
-           <p>Is not meant to teach you how to code, but aims to be a tool that curious coders can use to explore.gif</p>
+           <p>Languages are also color coded to indicate the decade of creation.</p>
          <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
           <div><img src='img/projects/HelloCode/hc03.gif'></div>
-          <p>deciding which programming language to use to build something awesome.gif</p>
+          <p>A multitude of information is provided for each language, including it's origin, influences, creator, and more</p>
           <img class="projectTab" style="border-style:none;" src='img/assets/browserTab.png'>
           <div><img src='img/projects/HelloCode/hc04.gif'></div>
         </div>
@@ -48,7 +48,7 @@
 
         <div class="bit-1">
           <div class="work04" id="project">
-            <p>Side by side comparisons of any two languages allow you to see the similarities and differences between them.gif</p>
+            <p>Side by side comparisons of any two languages allow you to see the similarities and differences between them</p>
           <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
           <img src='img/projects/HelloCode/hc05.gif'>
           </div>

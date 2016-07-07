@@ -7,7 +7,7 @@
 
   <div class="bit-1">
     <div class="box" id="description">
-      <p><span class="titlePG">30 Seconds</span> is a music web app to get know your artist bio, latest songs, gifs and the five relate artist latest songs.</p>
+      <p><span class="titlePG">30 Seconds</span> is a music web app to find more about your favorite artists. Discover the latest singles, gifs, and related artists.</p>
       <p class="titleSub">APIs<span class="yellow"> . </span> Side Project<span class="yellow"> . </span>2016</p>
     </div>
   </div>
@@ -20,7 +20,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Using LastFM, Discogs, Spotify and Giphy APIs to collected the data for any artist.gif</p>
+      <p>The app uses LastFM, Discogs, Spotify and Giphy APIs to collect the data for artists.gif</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/30Seconds/30Seconds_LandingPage_1080.gif'>
     </div>
@@ -28,7 +28,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>Scroll down view of the actual music app.gif</p>
+      <p>Scroll down to view the search results.gif</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/30Seconds/30Seconds_ArtistPage_1080.gif'>
     </div>
@@ -53,7 +53,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>Scroll down view of the actual music app.gif</p>
+      <p>Layout design.gif</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/30Seconds/30Seconds_Wireframes_1440.png'>
     </div>

@@ -14,7 +14,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>Landing page.jpg</p>
+      <p>Landing page</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Homemade/homemade02.jpg'>
     </div>
@@ -22,26 +22,10 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>How it works page.jpg</p>
-      <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
-      <img style="border-style: none;" src='img/projects/Homemade/homemade03.jpg'>
-    </div>
-  </div>
-
-  <div class="bit-1">
-    <div class="work03" id="project">
-      <p>_.jpg</p>
-      <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/Homemade/homemade04.jpg'>
     </div>
   </div>
 
-  <div class="bit-1">
-    <div class="work04" id="project">
-      <p>Become Homecook page.jpg</p>
-      <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
-      <img style="border-style: none;" src='img/projects/Homemade/homemade05.jpg'>
-    </div>
   </div>
 
 </div>

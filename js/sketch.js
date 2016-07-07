@@ -2,7 +2,7 @@
 $(document).ready(function (){
     $("#welcome").click(function (){
         $('html, body').animate({
-            scrollTop: $("#what-i-do").offset().top
+            scrollTop: $(".portfolio").offset().top
         }, 700);
     });
 });
@@ -14,22 +14,7 @@ $(document).ready(function (){
         }, 2500);
     });
 });
-// Index page
-$(document).ready(function (){
-  $('.services').addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeIn',
-      offset: 85,
-      repeat: false
-     });
-});
- // Index page and in Projects pages
-$(document).ready(function (){
-  $('.contact').addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeIn',
-      offset: 85,
-      repeat: false
-     });
-});
+
 
 
 // Index page
@@ -40,6 +25,24 @@ $(document).ready(function (){
       repeat: true
      });
 });
+
+$(document).ready(function (){
+  $('.contact').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeIn',
+      offset: 85,
+      repeat: true
+     });
+});
+$(document).ready(function (){
+  $('.services').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeIn',
+      offset: 85,
+      repeat: true
+     });
+});
+
+
+
 
 // Index page
 $(document).ready(function (){

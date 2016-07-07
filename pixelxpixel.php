@@ -19,7 +19,7 @@
 
   <div class="bit-1">
     <div class="work01" id="project">
-      <p>The first version from the concept of having one pixel in a screen.gif</p>
+      <p>The first version's concept was to have just one still pixel on the screen</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/PixelXPixel/pixelXPixel01.gif'>
     </div>
@@ -27,7 +27,7 @@
 
   <div class="bit-1">
     <div class="work02" id="project">
-      <p>One click is all that it takes to compromise your security on the internet.gif</p>
+      <p>One click prompts an alarming reaction</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/PixelXPixel/Pixel_X_Pixel_V02_Click.gif'>
     </div>
@@ -35,7 +35,7 @@
 
   <div class="bit-1">
     <div class="work03" id="project">
-      <p>mock-phishing website that will make users thinks twice before clicking any suspicious websites..gif</p>
+      <p>The mock-phishing website is meant to make users think twice before clicking any suspicious links</p>
       <img class="projectTab" style="border-style: none;" src='img/assets/browserTab.png'>
       <img style="border-style: none;" src='img/projects/PixelXPixel/Pixel_X_Pixel_V02_Menu.gif'>
     </div>
