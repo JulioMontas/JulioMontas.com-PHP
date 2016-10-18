@@ -1,5 +1,5 @@
 # JulioMontas.com
-Portfolio Page Version: 4.0.
+Portfolio Version: 4.0.
 
 #### Tools:
 - Lemonade: Simple Flexible Grid v1.1
